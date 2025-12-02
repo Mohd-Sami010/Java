@@ -12,7 +12,7 @@ public class BankingProgram {
             System.out.println(borderString);
             System.out.println("BANKING PROGRAM");
             System.out.println(borderString);
-            System.out.println("1. Show Balance\n2. Deposit\n3. Wothdraw\n4. Exit");
+            System.out.println("1. Show Balance\n2. Deposit\n3. Withdraw\n4. Exit");
             System.out.println(borderString);
             System.out.print("Enter your option: ");
             int option = scanner.nextInt();
