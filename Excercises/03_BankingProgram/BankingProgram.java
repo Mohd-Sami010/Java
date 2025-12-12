@@ -8,7 +8,7 @@ public class BankingProgram {
         float balance = 0;
         boolean exit = false;
         while (true) {
-            System.out.println("\n\n");
+            System.out.println("");
             System.out.println(borderString);
             System.out.println("BANKING PROGRAM");
             System.out.println(borderString);
