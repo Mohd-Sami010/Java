@@ -30,7 +30,7 @@ public class DiceRoller {
                 System.out.println("|       |\n|   *   |\n|       |");
                 break;
             case 2:
-                System.out.println("|       |\n| *   * |\n|       |");
+                System.out.println("| *     |\n|       |\n|     * |");
                 break;
             case 3:
                 System.out.println("|   *   |\n|       |\n| *   * |");
