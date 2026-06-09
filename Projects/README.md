@@ -4,8 +4,8 @@
 
 ## Stage 1 — Beginner Console Projects
 
-- Number Guessing Game
-- Calculator
+- ~~Number Guessing Game~~
+- ~~Calculator~~
 - Password Generator
 - To-Do List
 - Student Grade Manager
