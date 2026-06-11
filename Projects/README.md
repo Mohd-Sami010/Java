@@ -6,7 +6,7 @@
 
 - ~~Number Guessing Game~~
 - ~~Calculator~~
-- Password Generator
+- ~~Password Generator~~
 - To-Do List
 - Student Grade Manager
 
