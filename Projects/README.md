@@ -7,7 +7,7 @@
 - ~~Number Guessing Game~~
 - ~~Calculator~~
 - ~~Password Generator~~
-- To-Do List
+- ~~To-Do List~~
 - Student Grade Manager
 
 ## Stage 2 — DSA-Oriented Mini Projects
