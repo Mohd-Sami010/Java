@@ -8,7 +8,7 @@
 - ~~Calculator~~
 - ~~Password Generator~~
 - ~~To-Do List~~
-- Student Grade Manager
+- ~~Student Grade Manager~~
 
 ## Stage 2 — DSA-Oriented Mini Projects
 
