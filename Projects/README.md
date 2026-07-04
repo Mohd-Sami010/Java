@@ -13,7 +13,7 @@
 ## Stage 2 — DSA-Oriented Mini Projects
 
 - ~~Contact Book~~
-- Word Frequency Counter
+- ~~Word Frequency Counter~~
 - Expense Tracker
 - Library Management System
 
