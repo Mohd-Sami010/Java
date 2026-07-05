@@ -1,0 +1,2 @@
+GameAsset, 1000.0, None, 2026-07-05
+Samosa, 10.0, Food, 2026-07-05
