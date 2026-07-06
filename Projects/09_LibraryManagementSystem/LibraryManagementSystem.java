@@ -1,11 +1,9 @@
 import java.util.Scanner;
-import java.awt.print.Book;
 import java.util.ArrayList;
 
 public class LibraryManagementSystem {
     Scanner scanner = new Scanner(System.in);
     ArrayList<Book> booksInLibrary = new ArrayList<>();
-    ArrayList<User> users = new ArrayList<>();
 
     public void main() {
         System.out.println("\n\tLIBRARY");
@@ -45,31 +43,64 @@ public class LibraryManagementSystem {
     }
 
     private void IssueBook() {
+        System.out.print("\nEnter name of book: ");
+        String name = scanner.nextLine();
 
+        for (Book book : booksInLibrary) {
+            if (book.name.equalsIgnoreCase(name)) {
+                if (book.amount > 0) {
+                    book.amount--;
+                    System.out.println(book.name + " Issued succesfully");
+                } else {
+                    System.out.println(book.name + " Is Out Of Stock");
+                }
+                return;
+            }
+        }
+        System.out.println(name + " Not found");
     }
 
     private void ReturnBook() {
+        System.out.print("\nEnter name of book: ");
+        String name = scanner.nextLine();
 
+        for (Book book : booksInLibrary) {
+            if (book.name.equalsIgnoreCase(name)) {
+                book.amount++;
+                System.out.println(book.name + " Returned succesfully");
+                return;
+            }
+        }
+        System.out.println(name + " Not found");
     }
 
     private void SearchBook() {
+        System.out.print("\nEnter name of book: ");
+        String name = scanner.nextLine();
 
+        for (Book book : booksInLibrary) {
+            if (book.name.equalsIgnoreCase(name)) {
+                if (book.amount > 0)
+                    System.out.println(book.amount + " " + book.name + " are available");
+                else
+                    System.out.println(book.name + " is Out of stock");
+                return;
+            }
+        }
+        System.out.println(name + " Not found");
     }
 
     private void ViewInventory() {
         System.out.println("\nINVENTORY");
         System.out.println("Available in Libary:");
         for (Book book : booksInLibrary) {
-            System.out.println(book.amount + ": " + book.name);
+            if (book.amount > 0)
+                System.out.println(book.amount + ": " + book.name);
         }
-
-        System.out.println("\nBooks issued by users:");
-        for (User user : users) {
-            System.out.print("#id" + user.id + " " + user.name + ": ");
-            for (Book book : user.books) {
-                System.out.print(book.name + ": " + book.amount + ", ");
-            }
-            System.out.println("");
+        System.out.println("Out of Stock:");
+        for (Book book : booksInLibrary) {
+            if (book.amount == 0)
+                System.out.println(book.name);
         }
     }
 

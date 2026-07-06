@@ -15,7 +15,7 @@
 - ~~Contact Book~~
 - ~~Word Frequency Counter~~
 - ~~Expense Tracker~~
-- Library Management System
+- ~~Library Management System~~
 
 ## Stage 3 — Build Data Structures Yourself
 
