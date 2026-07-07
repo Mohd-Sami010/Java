@@ -108,7 +108,7 @@ public class LibraryManagementSystem {
         System.out.print("\nEnter book name:");
         String bookName = scanner.nextLine();
 
-        System.out.print("\nEnter number of \"" + bookName + "\" to add: ");
+        System.out.print("Enter number of \"" + bookName + "\" to add: ");
         int amount = scanner.nextInt();
         scanner.nextLine();
 
