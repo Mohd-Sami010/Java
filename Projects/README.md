@@ -20,7 +20,7 @@
 ## Stage 3 — Build Data Structures Yourself
 
 - ~~Custom Dynamic Array (MyArrayList)~~
-- Custom Stack (MyStack)
+- ~~Custom Stack (MyStack)~~~
 - Custom Queue (MyQueue)
 - Custom Linked List
 
