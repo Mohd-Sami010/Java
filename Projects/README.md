@@ -22,7 +22,7 @@
 - ~~Custom Dynamic Array (MyArrayList)~~
 - ~~Custom Stack (MyStack)~~
 - ~~Custom Queue (MyQueue)~~
-- Custom Linked List
+- ~~Custom Linked List~~
 
 ## LeetCode Preparation
 
